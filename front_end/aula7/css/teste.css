@@ -1,0 +1,57 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgb(255, 255, 255);
+    }
+
+h1{
+    position: sticky;
+    background-color: blueviolet;
+}
+p{
+    background-color: rgb(10, 2, 80);
+    font-style: italic;
+    color:rgb(255, 0, 0);
+    display:inline-block;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0.5%;
+}
+.tp{
+    position: relative;
+    z-index: 10;
+    left: -6%;
+}
+img{
+    width:40%;
+    height: 50%;
+    display: inline-block;
+}
+ 
+.click1{
+    position: absolute;
+    right: 68%;
+    width: 20%;
+    height: 5%;
+    padding: 3px 5px 0px 7px;
+    border: solid 3px red;
+    margin: 15px 20px 30px;
+    box-sizing: content-box;
+}
+.click2{
+    position: absolute;
+    right: 60%;
+    bottom: 10%;
+    border: dotted 3px yellow;
+    height: 30px;
+    width: 35%;
+    margin: 15px 20px 30px;
+    box-sizing: border-box;
+}
+#wpp{
+    position: fixed;
+    width: 7%;
+    height: 7%;
+    bottom: 1%;
+    right: 0%;
+}
