@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: -21px;
+    left: 0;
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(122, 172, 166, 0.9);
+    box-sizing: border-box;
+}
+
+h1{
+   
+    font-weight: bolder;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+h2{
+    font-weight: bolder;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    margin:0px 40px;
+}
+
+li{
+    display: inline;
+    border: solid 2px red;
+    font-weight: bolder;
+}
+
+img{
+    margin-top: 77px;
+    width: 100%;
+    height: 70%;
+    right: 2%;
+    bottom: 7%;
+}
+
+img.pe{
+    width: 4%;
+    height: 6%;
+    display: inline-block;
+    position: fixed;
+    right: 2%;
+    bottom: 4%;   
+}
+
+footer{
+    border: solid black;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    padding: 23px;
+    margin: 40px;
+}
+
+.texto{
+    text-align: center;
+}
